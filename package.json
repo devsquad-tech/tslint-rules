@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
-    "publishPackage": "npm run changelog && npm publish"
+    "publishPackage": "npm run changelog && npm publish --access public"
   },
   "dependencies": {
     "@angular/compiler": "^4.0.0",

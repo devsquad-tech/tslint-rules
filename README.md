@@ -1,3 +1,5 @@
+[![npm version](https://img.shields.io/npm/v/@devsquad/tslint-rules.svg)](https://www.npmjs.com/package/@devsquad/tslint-rules)
+
 # TSLint rules for DevSquad Projects
 
 Common TypeScript lint rules/preferences for products DevSquad.

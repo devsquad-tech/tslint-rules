@@ -123,7 +123,7 @@ module.exports = {
     // The rule have the following arguments:
     // [ENABLED, "attribute" | "element", "selectorPrefix" | ["listOfPrefixes"], "camelCase" | "kebab-case"]
     "directive-selector": [true, "attribute", ["dir-prefix1", "dir-prefix2"], "camelCase"],
-    "component-selector": [true, "element", ["cmp-prefix1", "cmp-prefix2"], "kebab-case"],
+    "component-selector": [true, "element", ["page", "cmp", "app"], "kebab-case"],
 
     "angular-whitespace": [true, "check-interpolation", "check-semicolon"],
 
@@ -138,9 +138,7 @@ module.exports = {
     "use-life-cycle-interface": true,
     "use-pipe-transform-interface": true,
 
-    // [ENABLED, "SUFFIX"]
-    // Where "SUFFIX" is your custom suffix, for instance "Page" for Ionic 2 components.
-    "component-class-suffix": [true, "Component"],
+    "component-class-suffix": [true, "Component", "Page"],
     "directive-class-suffix": [true, "Directive"]
   }
 };

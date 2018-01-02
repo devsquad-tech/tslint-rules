@@ -123,7 +123,7 @@ module.exports = {
     // The rule have the following arguments:
     // [ENABLED, "attribute" | "element", "selectorPrefix" | ["listOfPrefixes"], "camelCase" | "kebab-case"]
     "directive-selector": [true, "attribute", ["dir-prefix1", "dir-prefix2"], "camelCase"],
-    "component-selector": [true, "element", ["page", "cmp", "app"], "kebab-case"],
+    "component-selector": [true, "element", ["page", "cmp", "app", "component"], "kebab-case"],
 
     "angular-whitespace": [true, "check-interpolation", "check-semicolon"],
 

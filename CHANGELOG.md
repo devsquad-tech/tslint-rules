@@ -4,6 +4,11 @@
 
 
 <a name="0.0.5"></a>
+## [0.0.5](https://github.com/devsquad-tech/tslint-rules/compare/v0.0.7...v0.0.5) (2018-11-07)
+
+
+
+<a name="0.0.5"></a>
 ## 0.0.5 (2018-11-07)
 
 

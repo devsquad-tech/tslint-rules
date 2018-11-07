@@ -1,6 +1,6 @@
 {
   "name": "@devsquad/tslint-rules",
-  "version": "0.0.7",
+  "version": "0.0.5",
   "main": "tslint.js",
   "files": [
     "tslint.js",
@@ -10,7 +10,7 @@
   "scripts": {
     "postversion": "npm run publishPackage",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
-    "publishPackage": "npm run changelog && npm publish --access public"
+    "publishPackage": "npm run changelog && npm publish -f --access public"
   },
   "dependencies": {
     "@angular/compiler": "^4.0.0",

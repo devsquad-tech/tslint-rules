@@ -8,6 +8,7 @@
     "CHANGELOG.md"
   ],
   "scripts": {
+    "postversion": "npm run publishPackage",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "publishPackage": "npm run changelog && npm publish --access public"
   },

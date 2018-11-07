@@ -1,3 +1,13 @@
+<a name="0.0.5"></a>
+## 0.0.5 (2018-11-07)
+
+
+### Features
+
+* remove property deprecated ([2a9ac3f](https://github.com/devsquad-tech/tslint-rules/commit/2a9ac3f))
+
+
+
 <a name="0.0.4"></a>
 ## 0.0.4 (2018-11-07)
 
